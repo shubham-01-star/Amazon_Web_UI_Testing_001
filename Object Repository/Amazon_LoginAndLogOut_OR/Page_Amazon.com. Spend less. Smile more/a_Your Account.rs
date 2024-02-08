@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Your Account</name>
+   <tag></tag>
+   <elementGuidId>82bf603f-6ba1-467a-8926-b18159d0eb88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-backup-backup']/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.nav-bb-right > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dfa801d3-ffbd-461f-8ece-2b0aa84a97b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/css/homepage.html/ref=nav_bb_ya</value>
+      <webElementGuid>8eb791eb-70dd-4ca1-99fc-31bf9850f975</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Account</value>
+      <webElementGuid>51bafdf0-9128-479a-a2c4-9b36481450e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-backup-backup&quot;)/div[@class=&quot;nav-bb&quot;]/div[@class=&quot;nav-bb-right&quot;]/a[1]</value>
+      <webElementGuid>11265a9b-bab9-4ed4-b2e5-83674e0a1a94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbar-backup-backup']/div/div[3]/a</value>
+      <webElementGuid>33b394d8-aa94-40c8-9e13-2f81d8ecc123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Your Account')]</value>
+      <webElementGuid>f13391a1-a15a-4543-8781-f7db4f315c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/css/homepage.html/ref=nav_bb_ya')]</value>
+      <webElementGuid>6017984a-1caf-425d-9e58-34cdbd8bf613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>159f742e-859f-4e55-8685-95acadfde12e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/css/homepage.html/ref=nav_bb_ya' and (text() = 'Your Account' or . = 'Your Account')]</value>
+      <webElementGuid>f6b8a170-e932-4117-b3cf-90b523a3fea0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

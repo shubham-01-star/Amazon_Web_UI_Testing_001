@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "715805553380307FED341C6B6AF067C9",
+  "keywordClasses": [
+    {
+      "name": "login.LoginTestKeyWord",
+      "keywordMethods": [
+        {
+          "name": "LoginTestk",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>9294923885</initValue>
+      <initValue>'9294923885'</initValue>
       <name>mobileno</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>123456789</initValue>
+      <initValue>'123456789'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

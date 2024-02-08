@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manual mode,Chrome 121.0.0.0,,,08-02-2024 19:17:43,08-02-2024 19:18:12,29.115s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006,Chrome 121.0.0.0,,,08-02-2024 19:17:43,08-02-2024 19:18:12,28.810s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:17:43,08-02-2024 19:17:44,0.718s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:17:44,08-02-2024 19:17:46,1.654s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:17:46,08-02-2024 19:17:48,2.442s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Deliver to""))",Chrome 121.0.0.0,,,08-02-2024 19:17:48,08-02-2024 19:18:02,13.194s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Ship outside the US""))",Chrome 121.0.0.0,,,08-02-2024 19:18:02,08-02-2024 19:18:03,1.175s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/a_Singapore""))",Chrome 121.0.0.0,,,08-02-2024 19:18:03,08-02-2024 19:18:03,0.561s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/button_Done""))",Chrome 121.0.0.0,,,08-02-2024 19:18:03,08-02-2024 19:18:05,1.831s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Singapore""), 0)",Chrome 121.0.0.0,,,08-02-2024 19:18:05,08-02-2024 19:18:12,6.716s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:18:12,08-02-2024 19:18:12,0.260s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:18:12,08-02-2024 19:18:12,0.078s,ERROR

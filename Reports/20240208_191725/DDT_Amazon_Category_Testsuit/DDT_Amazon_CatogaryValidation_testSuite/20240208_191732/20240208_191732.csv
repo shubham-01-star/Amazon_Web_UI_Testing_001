@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_CatogaryValidation_testSuite,Chrome 121.0.0.0,,,08-02-2024 19:19:36,08-02-2024 19:21:27,1m - 51.483s,PASSED
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Chrome 121.0.0.0,,,08-02-2024 19:19:36,08-02-2024 19:20:10,33.604s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:19:36,08-02-2024 19:19:37,0.707s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:19:37,08-02-2024 19:19:39,1.617s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:19:39,08-02-2024 19:19:41,1.878s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Chrome 121.0.0.0,,,08-02-2024 19:19:41,08-02-2024 19:20:00,19.488s,PASSED
+"setText(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), item)",Chrome 121.0.0.0,,,08-02-2024 19:20:00,08-02-2024 19:20:01,1.153s,PASSED
+"click(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 19:20:01,08-02-2024 19:20:10,8.211s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:20:10,08-02-2024 19:20:10,0.264s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:20:10,08-02-2024 19:20:10,0.069s,ERROR
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Chrome 121.0.0.0,,,08-02-2024 19:20:10,08-02-2024 19:20:35,24.879s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:20:10,08-02-2024 19:20:10,0.086s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:20:10,08-02-2024 19:20:11,0.788s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:20:11,08-02-2024 19:20:13,2.482s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Chrome 121.0.0.0,,,08-02-2024 19:20:13,08-02-2024 19:20:26,12.183s,PASSED
+"setText(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), item)",Chrome 121.0.0.0,,,08-02-2024 19:20:26,08-02-2024 19:20:27,1.125s,PASSED
+"click(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 19:20:27,08-02-2024 19:20:35,7.883s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:20:35,08-02-2024 19:20:35,0.235s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:20:35,08-02-2024 19:20:35,0.062s,ERROR
+,,,,,,,
+Test Cases/DDT/TC_Validation Amazon Category_Excel_003,Chrome 121.0.0.0,,,08-02-2024 19:20:35,08-02-2024 19:21:01,25.717s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:20:35,08-02-2024 19:20:35,0.064s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:20:35,08-02-2024 19:20:36,0.799s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:20:36,08-02-2024 19:20:38,1.814s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/categoryElement""), category, false)",Chrome 121.0.0.0,,,08-02-2024 19:20:38,08-02-2024 19:20:54,16.778s,PASSED
+"setText(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), item)",Chrome 121.0.0.0,,,08-02-2024 19:20:54,08-02-2024 19:20:56,1.153s,PASSED
+"click(findTestObject(""Amazon_Category_ValidationExcel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 19:20:56,08-02-2024 19:21:00,4.813s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:21:00,08-02-2024 19:21:01,0.218s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:21:01,08-02-2024 19:21:01,0.052s,ERROR
+,,,,,,,
+Test Cases/DDT/TC_ValidateAmazon_Login_Internal_002,Chrome 121.0.0.0,,,08-02-2024 19:21:01,08-02-2024 19:21:27,26.786s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:21:01,08-02-2024 19:21:01,0.084s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:21:01,08-02-2024 19:21:02,0.859s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:21:02,08-02-2024 19:21:04,1.775s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,08-02-2024 19:21:04,08-02-2024 19:21:22,18.652s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_email""), findTestData(""DDT_TestData/Amazon_Testdata_internal_Login"").getValue(""mobile no"", 1))",Chrome 121.0.0.0,,,08-02-2024 19:21:22,08-02-2024 19:21:24,1.367s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 19:21:24,08-02-2024 19:21:26,2.370s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/input_password""), findTestData(""DDT_TestData/Amazon_Testdata_internal_Login"").getValue(""password"", 1))",Chrome 121.0.0.0,,,08-02-2024 19:21:26,08-02-2024 19:21:27,0.841s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,08-02-2024 19:21:27,08-02-2024 19:21:27,0.390s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:21:27,08-02-2024 19:21:27,0.218s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:21:27,08-02-2024 19:21:27,0.059s,ERROR

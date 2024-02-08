@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_AddtoCard_Conformation,Chrome 121.0.0.0,,,08-02-2024 19:22:05,08-02-2024 19:23:11,1m - 5.344s,PASSED
+,,,,,,,
+Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005,Chrome 121.0.0.0,,,08-02-2024 19:22:22,08-02-2024 19:23:11,48.720s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:22:22,08-02-2024 19:22:26,4.048s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,08-02-2024 19:22:26,08-02-2024 19:22:32,5.475s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""DA VINCI CODE"")",Chrome 121.0.0.0,,,08-02-2024 19:22:32,08-02-2024 19:22:33,1.411s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 19:22:33,08-02-2024 19:22:37,4.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_Results""), ""Results"")",Chrome 121.0.0.0,,,08-02-2024 19:22:37,08-02-2024 19:22:38,0.792s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)""))",Chrome 121.0.0.0,,,08-02-2024 19:22:38,08-02-2024 19:22:42,4.112s,PASSED
+"click(findTestObject(""Amazon_Addtocard_conformation_OR/New Folder/Page_The Da Vinci Code (Robert Langdon) Brown, Dan 9780385504201 Amazon.com Books/addtocard""))",Chrome 121.0.0.0,,,08-02-2024 19:22:42,08-02-2024 19:23:06,23.369s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart""), ""Added to Cart"")",Chrome 121.0.0.0,,,08-02-2024 19:23:06,08-02-2024 19:23:07,1.124s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:23:07,08-02-2024 19:23:11,3.867s,PASSED

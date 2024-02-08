@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AmazonHome_Validate_SerachField_001,Chrome 121.0.0.0,,,08-02-2024 19:21:34,08-02-2024 19:21:59,25.110s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_AmazonHome_Validate_SearchField_003,Chrome 121.0.0.0,,,08-02-2024 19:21:34,08-02-2024 19:21:59,24.829s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:21:34,08-02-2024 19:21:35,0.677s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:21:35,08-02-2024 19:21:37,1.659s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:21:37,08-02-2024 19:21:38,1.858s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,08-02-2024 19:21:38,08-02-2024 19:21:51,12.101s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,08-02-2024 19:21:51,08-02-2024 19:21:52,1.553s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,08-02-2024 19:21:52,08-02-2024 19:21:57,5.207s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com  Da vinci code/span_Results""), ""Results"")",Chrome 121.0.0.0,,,08-02-2024 19:21:57,08-02-2024 19:21:58,1.004s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com  Da vinci code/span_The Da Vinci Code (Robert Langdon)""), ""The Da Vinci Code (Robert Langdon)"")",Chrome 121.0.0.0,,,08-02-2024 19:21:58,08-02-2024 19:21:59,0.312s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:21:59,08-02-2024 19:21:59,0.242s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:21:59,08-02-2024 19:21:59,0.066s,ERROR

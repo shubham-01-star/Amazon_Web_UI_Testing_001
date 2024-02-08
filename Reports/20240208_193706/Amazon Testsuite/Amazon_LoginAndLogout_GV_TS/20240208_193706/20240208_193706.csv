@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_LoginAndLogout_GV_TS,Chrome 121.0.0.0,,,08-02-2024 19:37:11,08-02-2024 19:38:03,51.713s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon/Amazon_LoginAndLogOut_GV,Chrome 121.0.0.0,,,08-02-2024 19:37:11,08-02-2024 19:37:42,31.279s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:37:11,08-02-2024 19:37:12,0.679s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 19:37:12,08-02-2024 19:37:14,1.744s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 19:37:14,08-02-2024 19:37:15,1.772s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, sign in""))",Chrome 121.0.0.0,,,08-02-2024 19:37:15,08-02-2024 19:37:28,12.653s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_email""), mobileno)",Chrome 121.0.0.0,,,08-02-2024 19:37:28,08-02-2024 19:37:29,1.147s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,08-02-2024 19:37:29,08-02-2024 19:37:32,2.326s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_password""), password)",Chrome 121.0.0.0,,,08-02-2024 19:37:32,08-02-2024 19:37:33,1.125s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,08-02-2024 19:37:33,08-02-2024 19:37:33,0.456s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, DFGHJ""), ""Hello, DFGHJ"")",Chrome 121.0.0.0,,,08-02-2024 19:37:33,08-02-2024 19:37:38,4.544s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/i_hm-icon nav-sprite""))",Chrome 121.0.0.0,,,08-02-2024 19:37:38,08-02-2024 19:37:38,0.623s,PASSED
+"click(findTestObject(""Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/a_Sign Out""))",Chrome 121.0.0.0,,,08-02-2024 19:37:38,08-02-2024 19:37:42,3.663s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:37:42,08-02-2024 19:37:42,0.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:37:42,08-02-2024 19:37:42,0.065s,ERROR
+,,,,,,,
+Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002,Chrome 121.0.0.0,,,08-02-2024 19:37:42,08-02-2024 19:38:03,20.142s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,08-02-2024 19:37:42,08-02-2024 19:37:42,0.066s,ERROR
+login.LoginTestKeyWord.LoginTestk(),Chrome 121.0.0.0,,,08-02-2024 19:37:43,08-02-2024 19:38:02,19.655s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 19:38:02,08-02-2024 19:38:02,0.238s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,08-02-2024 19:38:02,08-02-2024 19:38:03,0.058s,ERROR

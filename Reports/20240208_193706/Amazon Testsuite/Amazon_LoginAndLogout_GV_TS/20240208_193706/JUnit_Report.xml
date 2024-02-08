@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_LoginAndLogout_GV_TS" time="51.713" tests="2" failures="0" errors="0">
+   <testsuite name="Amazon_LoginAndLogout_GV_TS" tests="2" failures="0" errors="0" time="51.713" skipped="0" timestamp="08-02-2024T19:37:11" hostname="User - DESKTOP-RHVOQ3Q" id="Test Suites/Amazon Testsuite/Amazon_LoginAndLogout_GV_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_193706\\Amazon Testsuite\\Amazon_LoginAndLogout_GV_TS\\20240208_193706"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_193706\\Amazon Testsuite\\Amazon_LoginAndLogout_GV_TS\\20240208_193706\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-RHVOQ3Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="571edf5f023f29781b8b90ff5b39db31"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon/Amazon_LoginAndLogOut_GV" time="31.279" classname="Test Cases/TC_Amazon/Amazon_LoginAndLogOut_GV" status="PASSED">
+         <system-out><![CDATA[08-02-2024T19:37:11 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Amazon_LoginAndLogOut_GV: Test Cases/TC_Amazon/Amazon_LoginAndLogOut_GV
+
+08-02-2024T19:37:11 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:11 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email"), "9294923885"): com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'. Try using Self-healing.
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+08-02-2024T19:37:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+08-02-2024T19:37:12 - [MESSAGE][FAILED] - Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+08-02-2024T19:37:12 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T19:37:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T19:37:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T19:37:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T19:37:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T19:37:15 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T19:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, sign in")): Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, sign in' is clicked on
+
+08-02-2024T19:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, sign in' is clicked on
+
+08-02-2024T19:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_email"), mobileno): Text '9294923885' is set on object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T19:37:29 - [MESSAGE][PASSED] - Text '9294923885' is set on object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T19:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T19:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T19:37:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_password"), password): Text '123456789' is set on object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T19:37:33 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T19:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T19:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T19:37:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, DFGHJ"), "Hello, DFGHJ"): Actual text and expected text of test object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, DFGHJ' are matched.
+
+08-02-2024T19:37:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/span_Hello, DFGHJ' are matched.
+
+08-02-2024T19:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/i_hm-icon nav-sprite")): Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T19:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T19:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/a_Sign Out")): Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/a_Sign Out' is clicked on
+
+08-02-2024T19:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_LoginAndLogOut_OR/Page_Your Account/a_Sign Out' is clicked on
+
+08-02-2024T19:37:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T19:37:42 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T19:37:42 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:42 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'. Try using Self-healing.
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+08-02-2024T19:37:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+08-02-2024T19:37:42 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002" time="20.142" classname="Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002" status="PASSED">
+         <system-out><![CDATA[08-02-2024T19:37:42 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002: Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002
+
+08-02-2024T19:37:42 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:42 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email"), "9294923885"): com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'. Try using Self-healing.
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:37:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+08-02-2024T19:37:42 - [MESSAGE][FAILED] - Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+08-02-2024T19:37:42 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to set text '9294923885' of object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TL_Amazon_Addtocard_conformation.sampleBeforeTestCase(TL_Amazon_Addtocard_conformation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:37:43 - [TEST_STEP][PASSED] - login.LoginTestKeyWord.LoginTestk(): login.LoginTestKeyWord.LoginTestk is PASSED
+
+08-02-2024T19:37:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T19:37:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T19:37:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T19:37:45 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T19:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_LOGIN_OR/Page_Your Account/div_Hello, sign in' is clicked on
+
+08-02-2024T19:37:58 - [MESSAGE][PASSED] - Text '9294923885' is set on object 'Object Repository/AMAZON_LOGIN_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T19:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_LOGIN_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T19:38:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AMAZON_LOGIN_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T19:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_LOGIN_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T19:38:02 - [MESSAGE][PASSED] - login.LoginTestKeyWord.LoginTestk is PASSED
+
+08-02-2024T19:38:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T19:38:02 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T19:38:02 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:38:02 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+08-02-2024T19:38:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'. Try using Self-healing.
+
+08-02-2024T19:38:02 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:38:02 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:38:02 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+08-02-2024T19:38:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+08-02-2024T19:38:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+08-02-2024T19:38:03 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TL_Amazon_Addtocard_conformation.sampleAfterTestCase(TL_Amazon_Addtocard_conformation.groovy:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707401226110.run(TempTestSuite1707401226110.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-RHVOQ3Q', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T19:37:11 - [TEST_SUITE][PASSED] - Amazon_LoginAndLogout_GV_TS: Test Cases/TC_Amazon/TC_Amazon_Validating_UsingCustomKewords_Login_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
