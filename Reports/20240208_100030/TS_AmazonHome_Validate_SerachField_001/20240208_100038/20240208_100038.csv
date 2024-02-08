@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AmazonHome_Validate_SerachField_001,Chrome 121.0.0.0,,,08-02-2024 10:00:43,08-02-2024 10:01:22,39.429s,FAILED
+,,,,,,,
+Test Cases/TC_AmazonHome_Validate_SearchField_001,Chrome 121.0.0.0,,,08-02-2024 10:00:43,08-02-2024 10:01:22,39.146s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 10:00:43,08-02-2024 10:00:46,2.357s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 10:00:46,08-02-2024 10:00:47,1.785s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Validate_SearchField_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,08-02-2024 10:00:47,08-02-2024 10:01:22,34.670s,FAILED
