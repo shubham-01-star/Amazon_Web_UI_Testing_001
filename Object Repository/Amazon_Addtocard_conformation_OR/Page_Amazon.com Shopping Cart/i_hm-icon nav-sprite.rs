@@ -6,12 +6,12 @@
    <elementGuidId>89495d5c-6b14-4934-8099-45d6ac520075</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.hm-icon.nav-sprite</value>
+         <key>XPATH</key>
+         <value>//a/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nav-hamburger-menu']/i</value>
+         <key>CSS</key>
+         <value>i.hm-icon.nav-sprite</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

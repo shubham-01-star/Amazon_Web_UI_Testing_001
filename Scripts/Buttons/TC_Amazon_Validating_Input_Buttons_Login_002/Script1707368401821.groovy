@@ -23,10 +23,11 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.click(findTestObject('Object Repository/Amazon_Validate_login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-boolean isUsernameFieldPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Amazon_Valid_Login_OR/login/Page_Amazon Sign-In/input_Email or mobile phone number_email'),0)
+boolean isUsernameFieldPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Amazon_Valid_Login_OR/login/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
+    0)
 
 if (!(isUsernameFieldPresent)) {
-	KeywordUtil.markFailed('Username input field is not present')
+    KeywordUtil.markFailed('Username input field is not present')
 }
 
 String username = '9294923885'
@@ -42,9 +43,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Validate_login_O
 
 WebUI.click(findTestObject('Object Repository/Amazon_Validate_login_OR/Page_Amazon Sign-In/inputsignInSubmit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Amazon_Valid_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, DFGHJ'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Amazon_Valid_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, DFGHJ'), 
+    0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Amazon_Valid_Login_OR/login/Page_Amazon.com. Spend less. Smile more/a_us'),0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Amazon_Valid_Login_OR/login/Page_Amazon.com. Spend less. Smile more/a_us'), 
+    0)
 
 WebUI.closeBrowser()
 
