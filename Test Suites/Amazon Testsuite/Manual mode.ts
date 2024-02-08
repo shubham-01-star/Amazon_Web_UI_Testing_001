@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_AmazonHome_Validate_SerachField_001</name>
+   <name>Manual mode</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>ab20e9d9-251d-4c15-9455-dc329eda77a8</testSuiteGuid>
+   <testSuiteGuid>e028299a-23d8-4222-9cc0-7c56d25acff4</testSuiteGuid>
    <testCaseLink>
-      <guid>a09a7aba-a159-4273-9e5d-8a48d96d3dc1</guid>
+      <guid>b68f8dc7-bf90-4d86-b6f9-6f656df54f21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Buttons/TC_AmazonHome_Validate_SearchField_003</testCaseId>
+      <testCaseId>Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

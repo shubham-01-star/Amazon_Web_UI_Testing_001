@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_AmazonHome_Validate_SerachField_001</name>
+   <name>script mode</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>ab20e9d9-251d-4c15-9455-dc329eda77a8</testSuiteGuid>
+   <testSuiteGuid>087bffdf-60ad-4234-9970-638e0fb3b94d</testSuiteGuid>
    <testCaseLink>
-      <guid>a09a7aba-a159-4273-9e5d-8a48d96d3dc1</guid>
+      <guid>92c2e55e-de33-417e-bf67-37f3e30f0608</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Buttons/TC_AmazonHome_Validate_SearchField_003</testCaseId>
+      <testCaseId>Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

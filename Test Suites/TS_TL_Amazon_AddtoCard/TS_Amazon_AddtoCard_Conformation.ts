@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_AmazonHome_Validate_SerachField_001</name>
+   <name>TS_Amazon_AddtoCard_Conformation</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>ab20e9d9-251d-4c15-9455-dc329eda77a8</testSuiteGuid>
+   <testSuiteGuid>ddec87a0-9f82-42ce-898c-2b1417c04899</testSuiteGuid>
    <testCaseLink>
-      <guid>a09a7aba-a159-4273-9e5d-8a48d96d3dc1</guid>
+      <guid>f8ea8cab-7e1a-4376-9c52-94e3c925d6ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Buttons/TC_AmazonHome_Validate_SearchField_003</testCaseId>
+      <testCaseId>Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

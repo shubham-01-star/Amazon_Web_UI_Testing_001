@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manual mode,Chrome 121.0.0.0,,,08-02-2024 11:24:24,08-02-2024 11:25:04,39.982s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon/Manual mode/TC_AmazonHome_ValidateDeliver_Location_006,Chrome 121.0.0.0,,,08-02-2024 11:24:25,08-02-2024 11:25:04,39.713s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 11:24:25,08-02-2024 11:24:27,2.152s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,08-02-2024 11:24:27,08-02-2024 11:24:30,2.540s,PASSED
+"click(findTestObject(""Object Repository/AmazonHome_ValidateDeliver_Location_OR/Page_Amazon.com. Spend less. Smile more/span_Deliver to""))",Chrome 121.0.0.0,,,08-02-2024 11:24:30,08-02-2024 11:25:04,34.621s,FAILED

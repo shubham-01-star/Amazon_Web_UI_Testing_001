@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AmazonHome_ValidateCreateNewAC_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f569dbef-fb06-497b-ae0e-5ee323af831b</testCaseGuid>
+</TestCaseEntity>

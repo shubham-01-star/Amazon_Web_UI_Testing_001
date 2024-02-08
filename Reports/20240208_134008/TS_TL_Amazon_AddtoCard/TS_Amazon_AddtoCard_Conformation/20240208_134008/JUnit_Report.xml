@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Amazon_AddtoCard_Conformation" time="88.261" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Amazon_AddtoCard_Conformation" tests="1" failures="0" errors="0" time="88.261" skipped="0" timestamp="08-02-2024T13:40:14" hostname="User - DESKTOP-RHVOQ3Q" id="Test Suites/TS_TL_Amazon_AddtoCard/TS_Amazon_AddtoCard_Conformation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_134008\\TS_TL_Amazon_AddtoCard\\TS_Amazon_AddtoCard_Conformation\\20240208_134008"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_134008\\TS_TL_Amazon_AddtoCard\\TS_Amazon_AddtoCard_Conformation\\20240208_134008\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-RHVOQ3Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="2767d0f0324de7aabe2b3f6235f35a19"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005" time="64.632" classname="Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005" status="PASSED">
+         <system-out><![CDATA[08-02-2024T13:40:38 - [TEST_CASE][PASSED] - Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005: Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005
+
+08-02-2024T13:40:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T13:40:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email"), "9294923885"): Text '9294923885' is set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T13:40:39 - [MESSAGE][PASSED] - Text '9294923885' is set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_email'
+
+08-02-2024T13:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T13:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+08-02-2024T13:40:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T13:40:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/input_password'
+
+08-02-2024T13:40:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T13:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+08-02-2024T13:40:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+08-02-2024T13:41:19 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+08-02-2024T13:41:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "DA VINCI CODE"): Text 'DA VINCI CODE' is set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+08-02-2024T13:41:20 - [MESSAGE][PASSED] - Text 'DA VINCI CODE' is set on object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+08-02-2024T13:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+08-02-2024T13:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+08-02-2024T13:41:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_Results"), "Results"): Actual text and expected text of test object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_Results' are matched.
+
+08-02-2024T13:41:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_Results' are matched.
+
+08-02-2024T13:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+08-02-2024T13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com  DA VINCI CODE/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+08-02-2024T13:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_Addtocard_conformation_OR/New Folder/Page_The Da Vinci Code (Robert Langdon) Brown, Dan 9780385504201 Amazon.com Books/addtocard")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/New Folder/Page_The Da Vinci Code (Robert Langdon) Brown, Dan 9780385504201 Amazon.com Books/addtocard' is clicked on
+
+08-02-2024T13:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/New Folder/Page_The Da Vinci Code (Robert Langdon) Brown, Dan 9780385504201 Amazon.com Books/addtocard' is clicked on
+
+08-02-2024T13:41:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart"), "Added to Cart"): Actual text and expected text of test object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' are matched.
+
+08-02-2024T13:41:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/span_Added to Cart' are matched.
+
+08-02-2024T13:41:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+08-02-2024T13:41:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/i_hm-icon nav-sprite' is clicked on
+
+08-02-2024T13:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out")): Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on
+
+08-02-2024T13:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Addtocard_conformation_OR/Page_Amazon.com Shopping Cart/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T13:40:14 - [TEST_SUITE][PASSED] - TS_Amazon_AddtoCard_Conformation: Test Cases/TC_Test_Listener/TC_Amazon_AddtoCard_Conformation_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

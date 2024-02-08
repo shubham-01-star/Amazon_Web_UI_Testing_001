@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="script mode" time="28.856" tests="1" failures="0" errors="0">
+   <testsuite name="script mode" tests="1" failures="0" errors="0" time="28.856" skipped="0" timestamp="08-02-2024T11:35:12" hostname="User - DESKTOP-RHVOQ3Q" id="Test Suites/Amazon Testsuite/script mode">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_113507\\Amazon Testsuite\\script mode\\20240208_113507"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\Amazon_Web_UI_Testing_001\\Reports\\20240208_113507\\Amazon Testsuite\\script mode\\20240208_113507\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-RHVOQ3Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="c306ff2c582a02b4aaa23025e0e9aada"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006" time="28.586" classname="Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006" status="PASSED">
+         <system-out><![CDATA[08-02-2024T11:35:12 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006: Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006
+
+08-02-2024T11:35:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T11:35:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T11:35:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T11:35:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T11:35:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T11:35:16 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+08-02-2024T11:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input")): Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+08-02-2024T11:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input' is clicked on
+
+08-02-2024T11:35:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals")): Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals' is clicked on
+
+08-02-2024T11:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon.com. Spend less. Smile more/a_Todays Deals' is clicked on
+
+08-02-2024T11:35:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01"), 0): Object 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01' is present
+
+08-02-2024T11:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T11:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonHome_Validate_TodaysDeals_OR/Page_Amazon  Deals/div_Todays Deals                        Cou_7c1b01' is present
+
+08-02-2024T11:35:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T11:35:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T11:35:12 - [TEST_SUITE][PASSED] - script mode: Test Cases/TC_Amazon/Script mode/TC_Amazonhome_Validate_Todays_Deals_006]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

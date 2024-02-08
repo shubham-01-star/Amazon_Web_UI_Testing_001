@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_testdata_internal</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/DDT_TestData/Amazon_Testdata_internal_Login</source-url>
+   </source-info>
+   <taken-date>2024-01-28T16:01:58.566+05:30</taken-date>
+   <column-names>
+      <column-name>mobile no</column-name>
+      <column-name>password</column-name>
+      <column-name>AddtoCard conformation</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "9294923885",
+      "checked": false
+    },
+    {
+      "value": "123456789",
+      "checked": false
+    },
+    {
+      "value": "AddtoCart_Conformation",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

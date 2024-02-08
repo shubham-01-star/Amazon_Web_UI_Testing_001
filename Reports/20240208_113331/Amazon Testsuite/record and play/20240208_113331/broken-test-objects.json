@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input",
+      "brokenLocator": "(//input[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240208_113331/Amazon Testsuite/record and play/20240208_113331/Object Repository/AmazonHome_Validate_Customer_Service_OR/Page_Amazon.com. Spend less. Smile more/input_a-button-input_customAttributes.png"
+    }
+  ]
+}
