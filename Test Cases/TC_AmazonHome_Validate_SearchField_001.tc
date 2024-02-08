@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AmazonHome_Validate_SearchField_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a7a8878-8bf5-44b0-b1c6-8ba61fe7fcb0</testCaseGuid>
+</TestCaseEntity>
